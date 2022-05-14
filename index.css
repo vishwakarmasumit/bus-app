@@ -19,6 +19,9 @@ body{
         height: 44vh;
        
     }
+    .ticket {
+        width: 90%;
+    }
     .name{
         display: flex;
     }
