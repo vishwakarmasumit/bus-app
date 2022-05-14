@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* display: none; */
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+    /* .container { display: none;} */
+
+    .box {
+        background-color: #17c2c3;
+        height: 50vh;
+       
+    }
+    .name{
+        display: flex;
+    }
+    .ticket {
+        position: relative;
+        top: 255px;
+        color: white;
+        left: 17px;
+        font-size: 55px;
+    }
+    h3.h3 {
+        color: white;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+    
+    .box-1 {
+        background: #ff7100;
+        padding: 11px;
+        font-size: 17px;
+        color: white;
+    }
+
+    .box-2 {
+        font-size: 18px;
+        padding: 16px;
+    }
+    .item {
+        margin: 23px 9px;
+    }
+    i.fa-solid.fa-gear {
+        font-size: 30px;
+        position: absolute;
+        right: 60px;
+        top: 13px;
+        color: white;
+    }
+    i.fas.fa-bell {
+        color: white;
+        position: absolute;
+        right: 14px;
+        top: 13px;
+        font-size: 30px;
+    }
+    svg.view {
+        margin-right: 15px;
+    }
+
+
+
+
+}
