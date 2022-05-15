@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+@media only screen and (min-width:320px) and (max-width:770px) {
+    
+    .box-sub {
+        display: flex;
+    }
+    .box{
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+        color: black;
+    }
+    hr {
+        margin-top: 11px;
+    }
+    .small{
+        background-color: green;
+        color: white;
+    }
+    .small h3{
+        padding: 5px 69px;
+    }   
+    .small h3 img{
+        height: 25px;
+        filter: invert(100%);    margin-right: 5px;
+
+    }
+    .box .transaction {
+        width: 45%;
+        padding: 10px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    
+    input[type="text"] {
+        width: 95%;
+        font-size: 16px;
+        padding: 7px;
+    }
+    form {
+        padding-top: 10px;
+    }
+    i.fa-solid.fa-clock-rotate-left {
+        font-size: 15px;
+    }
+    i.fa-brands.fa-whatsapp {
+        font-size: 15px;
+    }
+    .box-sub {
+        font-size: 12px;
+    }
+    footer{
+        padding:68px;
+    }
+    p{
+        
+    background: white;
+    color: black;
+    width: 52%;
+    padding: 8px;
+    margin: auto;
+    bottom: 35px;
+    position: fixed;
+    border-radius: 5px;
+    font-size: 15px;
+    }
+}
